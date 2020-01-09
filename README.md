@@ -9,3 +9,8 @@ pip freeze > requirements.txt
 这种方式配合virtualenv 才好使，否则把整个环境中的包都列出来了
 2、方法二：
 使用 pipreqs
+
+
+3、安装依赖
+切换到目录下执行
+pip install -r requirements.txt
